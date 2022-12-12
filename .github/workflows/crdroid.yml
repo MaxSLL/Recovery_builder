@@ -31,7 +31,7 @@ jobs:
 
        - name: Initializing environment
          run: |
-             git clone https://github.com/SA-17/rm-pkg p && cd p && bash setup.sh
+             git clone https://github.com/SuA17/rm-pkg p && cd p && bash setup.sh
 
             
        - name: Sync recovery source and device tree
